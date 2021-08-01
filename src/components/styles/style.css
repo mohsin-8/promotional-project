@@ -1,0 +1,201 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Home page css starts here */
+
+.bgimage {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../images/home.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+}
+
+.heading-home {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: 8px solid white;
+  border-style: ridge;
+  padding: 12px;
+}
+
+.add {
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+  font-weight: 300;
+  font-family: cursive;
+}
+
+.buttons-home {
+  margin-top: 8%;
+}
+
+/* .btn-home a{
+    text-decoration: none;
+    color: white;
+} */
+
+#admin-btn {
+  background-color: rgb(7, 165, 7);
+}
+
+.btn-home {
+  color: white;
+  font-size: 24px;
+  background-color: red;
+  height: 60px;
+  margin-top: 3%;
+  width: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  opacity: 0.9;
+  background-color: rgb(250, 102, 64);
+}
+
+/* Forms Css starts here */
+.signup-box {
+  width: 360px;
+  height: 740px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 300px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+  position: relative;
+  top: 20%;
+  left: 15%;
+  transform: translate(-50%, 0);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btn {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.para-2 {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: red;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin: 0%;
+  background-image: url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);
+  position: relative;
+  height: 120vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.navbar-custom {
+  background-color: lightblue;
+}
+
+.orderbtn {
+  width: 150px;
+  position: relative;
+  left: 20%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-top: 10%; */
+  padding: 10% auto;
+}
+
+.card {
+  margin-top: 5%;
+  line-height: 3px;
+}
+
+.card img {
+  height: 280px;
+  width: 280px;
+}
