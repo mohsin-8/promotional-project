@@ -1,0 +1,18 @@
+.welcome {
+  background-image: linear-gradient(red, black);
+  height: 500px;
+  color: #fff;
+}
+
+h1 {
+  padding-top: 150px;
+}
+
+.footer {
+  color: grey;
+  text-align: right;
+  height: 80px;
+  padding: 10px;
+  letter-spacing: 15px;
+  font-weight: bold;
+}

@@ -1,37 +1,44 @@
 import React from 'react';
-import "./styles/style.css";
 
 function Signupcustomer() {
     return (
-        <>
-            <div class="signup-box">
-                <h1>Sign Up</h1>
-                <h4>Customer Sign-up Form</h4>
-                <div>
-                    <form>
-                        <label for="name">Username</label>
-                        <input type="text" name="name" placeholder="" />
-                        <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="" />
-                        <label for="number">Phone Number</label>
-                        <input type="tel" name="number" placeholder="" />
-                        <label for="address">Address</label>
-                        <input type="text" name="address" placeholder="" />
-                        <label for="password">Password</label>
-                        <input type="password" name="password" placeholder="" />
-                        <label for="password2">Confirm Password</label>
-                        <input type="password" name="password2" placeholder="" />
-                        <button class="btn">Sign-up</button>
-                        {/* <input class="btn" type="submit" value="Sign-up">  */}
-                    </form>
+        <div className="signupcustomer">
+            <form className="form my-5">
+                <h1>Customer Sign-up Form</h1>
+                <div class="mb-3 my-5">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="username" class="form-control" id="username" aria-describedby="username" />
+                    <div id="username" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-
-                <p class="para-2">
-                    Already have an account? <a href="Login.html">Login Here</a>
-                </p>
-
-            </div>
-        </>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="PhoneNumber" class="form-label">Phone Number</label>
+                    <input type="PhoneNumber" class="form-control" id="PhoneNumber" aria-describedby="PhoneNumber" />
+                    <div id="PhoneNumber" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="Address" class="form-label">Address</label>
+                    <input type="Address" class="form-control" id="Address" aria-describedby="Address" />
+                    <div id="Address" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <p class="para-2">
+                Not have an account? <a href="index.html">Sign Up Here</a>
+            </p>
+        </div>
     )
 }
 

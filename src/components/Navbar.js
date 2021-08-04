@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <Link to="/">
-                        <a className="navbar-brand" href="#">Welcome</a>
+                        <a style={{ textDecoration: 'none' }} className="navbar-brand" href="#" >Welcome</a>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -23,14 +24,16 @@ function Navbar() {
                                     Login
           </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+
                                     <Link to="/signupcustomer">
                                         <li><a className="dropdown-item" href="#">Sign up as Customer</a></li>
                                     </Link>
+
                                     <Link to="/signuprestaurant">
                                         <li><a className="dropdown-item" href="#">Sign up as Restaurant</a></li>
                                     </Link>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <Link to="/loginadmin">
+                                    <Link to="/loginadmin" >
                                         <li><a className="dropdown-item" href="#">Login as admin</a></li>
                                     </Link>
                                 </ul>

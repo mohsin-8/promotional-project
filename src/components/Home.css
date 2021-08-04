@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Poppins:wght@200;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0, 1.57, 0.67, 1.18);
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #f1f1f1;
+}
+
+.box {
+  flex: 1 1 300px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.box .image {
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.box .image img {
+  height: 350px;
+  width: 200px;
+  object-fit: cover;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.7));
+}
+
+.box .info .subInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.box .info .subInfo .price {
+  color: #0a3d62;
+  font-size: 20px;
+}
+
+/* .box .info .subInfo .stars i {
+  color: orange;
+  font-size: 17px;
+} */
+
+.stars i {
+  color: orange;
+  font-size: 17px;
+  float: right;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.stars span {
+  margin-left: 10px;
+}
+
+.footer {
+  color: grey;
+  text-align: right;
+  height: 80px;
+  padding: 10px;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
